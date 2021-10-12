@@ -8,29 +8,36 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
     <link rel="stylesheet" type="text/css" href="../CSS/estilo.css" media="screen" />
+    <script type="text/javascript" src="../JS/validacion.js"></script>
+
 </head>
 
 
 
 <body >
-
-    <div class="logo y titutlo">
+    <div >
         <img class="img_logo" src="../IMAGE/volvo.png">
-        <p class="titulo">plataforma de inventario </p>
     </div>
+    <div class="titulo">
+        
+        <p>plataforma de inventario </p>
+    </div>
+    <form class="form-group" id="Dashboard_administrativo" action="" method="post" onsubmit="return configForm(this);" style="position: relative; z-index: 1;"></form>
 
-    <di class="contenedor">
-        <label class="label_usuario">Usuario</label></br>
-        <input class="input_usuario letra" placeholder="Nombre usuario"/>
-        <label class="label_contraseña ">Constraseña</label></br>
-        <input class="input_contraseña letra" placeholder="***********"/>
-    </di>
+
+    <div class="contenedor">
+        <label class="label_usuario is-required">Usuario</label></br>
+        <input type="text" name="name" class="input_usuario letra" placeholder="Nombre usuario" required/>
+        <label class="label_contraseña is-required">Constraseña</label></br>
+        <input type="text" name="contraseña" class="input_contraseña letra" placeholder="***********" required/>
+    </div>
 
     <div>
        
-        <button class="btn">Entrar</button>
+        <input type="submit" value="enviar" class="btn boton"/>
     </div>
-    
+    </form>
+    <div class="cleaner"></div>	
 </body>
 
 

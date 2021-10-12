@@ -65,14 +65,15 @@ top: 400px;
 
 .img_logo{
     
-position: absolute;
+
 width: 271px;
 height: 256px;
 left: 585px;
-top: 10px;
+top: 0px;
+margin-left: 580px;
 
 }
-
+ 
 .nav_left{
     /* Usuarios */
 
@@ -175,6 +176,10 @@ flex-grow: 0;
 margin: 0px 10px;
 }
 
+.boton{
+  margin-top: 300px;
+  margin-left: 640px;
+}
 .input_usuario{
 position: absolute;
 width: 574.4px;
@@ -288,8 +293,17 @@ margin: 2.67391px 0px;
 
 }
 
+.is-required:after{
+    content: "* ";
+    color: red;
+    margin-left: 3px;
+    font-weight: bold;
+}
 
-
+.logo{
+    top: 0px;
+    left: 350px;
+}
 
 .titulo{
 
@@ -305,6 +319,8 @@ line-height: 63px;
 text-transform: capitalize;
 
 color: #8A8787;
+top: 250px;
+margin-left: 470px;
 }
 
 .titulo_crear{
