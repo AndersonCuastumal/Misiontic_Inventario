@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de productos</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="header">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Usuarios</a></li>
+                <li class="active"><a href="#">Productos</a></li>
+                <li><a href="#">Proveedores</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="title">
+            <h1>Gestión de Productos</h1>
+        </div>
+
+        <div class="content">
+            <div class="col1">
+                <h2>Buscar producto</h2>
+
+                <form action="#">
+                    <input type="text" placeholder="¿Que estás buscando?">
+                    <input type="submit" value="Buscar">
+                </form>
+            </div>
+
+            <div class="col2">
+                <h2>Crear producto</h2>
+
+                <form action="#">
+                    <div class="info">
+                        <div class="form-col1">
+                            <div>
+                                <label>Producto</label>
+                                <input type="text" placeholder="Nombre del producto">
+                            </div>
+
+                            <div>
+                                <label>Cantidad disponible en Bodega</label>
+                                <input type="text" placeholder="Cantidades en Bodega">
+                            </div>
+
+                            <div>
+                                <label>Cantidad mínima en Bodega</label>
+                                <input type="text" placeholder="Unidades mínimas requeridas en Bodega">
+                            </div>
+                        </div>
+
+                        <div class="form-col2">
+                            <div>
+                                <label>Descripción</label>
+                                <textarea rows="4"></textarea>
+                            </div>
+
+                            <div>
+                                <label>Imagen del producto</label>
+                                <input type="file">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class= "edit">
+                        <input type="submit" value="Crear nuevo producto">
+                        <input type="submit" value="Editar">
+                        <input type="submit" value="Eliminar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
