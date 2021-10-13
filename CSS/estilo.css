@@ -594,3 +594,37 @@ top: 740px;
 
 
 }
+
+.botones_bottom_l{
+    /* Leo */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+
+position: absolute;
+width: 351.91px;
+height: 65.74px;
+left: 430px;
+top: 600px;
+
+
+}
+
+.titulo_crear_l{
+
+    width: max-content;
+    height: max-content;
+    align-content:center;
+    font-family: Roboto Mono;
+   
+    font-size: 47.9667px;
+    margin-left:470px;
+    margin-top: 0px;
+    text-transform: capitalize;
+    
+    
+    color: #8A8787;
+    }
